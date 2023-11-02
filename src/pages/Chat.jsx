@@ -24,7 +24,7 @@ const Chat = () => {
 
   // Set up socket connection and handle user online status
   useEffect(() => {
-    socket.current = io("http://localhost:4000");
+    socket.current = io("https://hifi-api.vercel.app");
 
     // Emit a new-user-add event with the user's ID to join the chat
     socket.current.emit("new-user-add", myprofile?._id);

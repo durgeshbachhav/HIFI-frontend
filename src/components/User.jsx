@@ -61,7 +61,7 @@ const User = () => {
       <div className="flex gap-8">
         <div style={{ width:'25%'}} className="flex items-center justify-center">
           <img
-            className="w-30 h-30 rounded-full bg-white"
+            className="w-32 h-32 rounded-full bg-white"
             src={
               userprofile?.avatar?.url
                 ? userprofile.avatar.url

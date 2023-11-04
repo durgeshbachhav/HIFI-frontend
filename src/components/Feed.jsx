@@ -31,7 +31,7 @@ const Feed = () => {
           ))
         )}
       </div>
-      <div className="fixed top-0 right-2" style={{ width: "25%" }}>
+      <div className=" " style={{ width: "34%" }}>
         <FollowFeed />
       </div>
     </div>

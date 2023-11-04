@@ -37,7 +37,7 @@ function CreatePost() {
     );
 
     if (response.status === "ok") {
-      navigate("/profile/:userId");
+      navigate(`/profile/${myProfile?._id}`);
     }
   };
 
